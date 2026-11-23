@@ -130,6 +130,13 @@ const RESEARCH_CHUNKS = [
     link: "bots/shot-director.html#camera-directions-reference"
   },
   {
+    id: "shot-film-stock-reference",
+    bot: "Shot Director",
+    title: "Film Stock Reference Sheet",
+    text: "A 24-entry visual reference of film stocks, including color negative, motion picture, slide, black and white, and specialty stocks, with example images, look descriptions, and copy-ready prompt phrases for film looks, grain, and color in AI video prompts.",
+    link: "bots/shot-director.html#film-stock-reference"
+  },
+  {
     id: "project-dance",
     bot: "Projects",
     title: "Greek Dance Storyboard",
