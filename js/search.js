@@ -149,6 +149,13 @@ const RESEARCH_CHUNKS = [
     title: "Grok Files (Google Drive)",
     text: "All of Kory's Grok project files in one private Google Drive folder, organized into categories: Dashboard archives, Videos and Storyboards, Characters and Reference Images, Prompts and Camera Guides, and Stories and Scripts. The folder is private to Kory's Google account and opens in a new tab.",
     link: "index.html#grok-files-drive"
+  },
+  {
+    id: "ai-apps",
+    bot: "Dashboard",
+    title: "My AI Apps",
+    text: "Quick links to Kory's AI apps: Grok for chat, image and video generation; Gemini for research and writing; Google Flow for AI filmmaking; Artlist for music, SFX, stock footage and AI tools; and ElevenLabs for AI voice and text-to-speech.",
+    link: "index.html#ai-apps"
   }
 ];
 
