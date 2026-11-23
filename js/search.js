@@ -123,6 +123,13 @@ const RESEARCH_CHUNKS = [
     link: "bots/shot-director.html#getting-started"
   },
   {
+    id: "shot-camera-reference",
+    bot: "Shot Director",
+    title: "Camera Directions Reference Sheet",
+    text: "A 30-entry visual reference sheet for shot sizes, camera angles, camera movements, and lenses, with example images and copy-ready prompt phrases for AI short story videos. Use it to pick framing, angle, movement, and lens wording for prompts.",
+    link: "bots/shot-director.html#camera-directions-reference"
+  },
+  {
     id: "project-dance",
     bot: "Projects",
     title: "Greek Dance Storyboard",
