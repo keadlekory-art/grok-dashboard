@@ -320,3 +320,30 @@ footer {
   border-radius: 8px;
   box-shadow: var(--card-shadow);
 }
+
+.card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
+}
+
+.folder-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.85rem;
+  margin: 0 0 0.75rem;
+}
+
+.folder-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.folder-links a:hover {
+  text-decoration: underline;
+}

@@ -142,6 +142,13 @@ const RESEARCH_CHUNKS = [
     title: "Cinematic Short Stories",
     text: "AI-generated short story videos combining image generation, video, voice, and editing. Emphasis on character consistency across shots and cinematic quality.",
     link: "index.html#cinematic-short-stories"
+  },
+  {
+    id: "grok-files-drive",
+    bot: "Dashboard",
+    title: "Grok Files (Google Drive)",
+    text: "All of Kory's Grok project files in one private Google Drive folder, organized into categories: Dashboard archives, Videos and Storyboards, Characters and Reference Images, Prompts and Camera Guides, and Stories and Scripts. The folder is private to Kory's Google account and opens in a new tab.",
+    link: "index.html#grok-files-drive"
   }
 ];
 
