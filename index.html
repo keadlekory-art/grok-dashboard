@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kory's Grok Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1><span>◆</span> Kory's Grok Dashboard</h1>
+    <nav>
+      <a href="index.html" class="active">Dashboard</a>
+      <a href="#bots">Bots</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="section search-section">
+      <h2>Semantic Search</h2>
+      <p class="search-desc">Search across all bot research, briefs, and prompt notes by meaning. Powered by client-side Transformers.js (runs in your browser).</p>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="e.g. orbit faces, character sheet, native 4K, lighting vocabulary..." disabled>
+        <div id="search-status" class="meta">Initializing...</div>
+      </div>
+      <div id="search-results"></div>
+    </div>
+
+    <div class="section" id="bots">
+      <h2>Bots</h2>
+      <div class="grid">
+        <a href="bots/g-bot.html" class="card">
+          <h3>G Bot</h3>
+          <p>A teammate with its own computer that takes real work off your plate. Currently helping with video generation and storyboard refinement.</p>
+          <span class="badge idle">Idle</span>
+        </a>
+        <a href="bots/ai-tools-scout.html" class="card">
+          <h3>AI Tools Scout</h3>
+          <p>Keeps you current on AI creative tools with morning briefs focused on image and video generation. Practical tips for your cinematic projects.</p>
+          <span class="badge idle">Idle</span>
+        </a>
+        <a href="bots/shot-director.html" class="card">
+          <h3>Shot Director</h3>
+          <p>Cinematography prompt coach. Turns plain scene descriptions into detailed prompts with shot size, camera, lens, lighting, and mood.</p>
+          <span class="badge idle">Idle</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="section" id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card" id="cinematic-short-stories">
+          <h3>Cinematic Short Stories</h3>
+          <p>AI-generated short story videos combining image, video, voice, and editing. Focus on character consistency and cinematic quality.</p>
+          <div class="meta">Active · Multiple tools</div>
+        </div>
+        <div class="card" id="greek-dance-storyboard">
+          <h3>Greek Dance Storyboard</h3>
+          <p>Current work with G Bot: orbit and arc shots of robed dancers, character face preservation, and AI video technique experiments.</p>
+          <div class="meta">In progress</div>
+        </div>
+        <div class="card" id="character-animation-voice">
+          <h3>Character Animation & Voice</h3>
+          <p>Quirky character shorts with voiceovers — from deer and fawns to custom speaking characters and costume scenes.</p>
+          <div class="meta">Ongoing</div>
+        </div>
+        <div class="card" id="photo-polishing-avatars">
+          <h3>Photo Polishing & Avatars</h3>
+          <p>Professional headshots, self-portraits, face swaps, black & white conversions, and magazine-style covers from personal photos.</p>
+          <div class="meta">Portfolio work</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Dashboard for Kory's Grok Bots and Projects · Last updated November 22, 2026 · Semantic search runs entirely in your browser
+  </footer>
+  <script type="module" src="js/search.js"></script>
+</body>
+</html>
