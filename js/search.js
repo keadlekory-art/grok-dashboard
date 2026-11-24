@@ -161,7 +161,7 @@ const RESEARCH_CHUNKS = [
     id: "ai-apps",
     bot: "Dashboard",
     title: "My AI Apps",
-    text: "Quick links to Kory's AI apps: Grok for chat, image and video generation; Gemini for research and writing; Google Flow for AI filmmaking; Artlist for music, SFX, stock footage and AI tools; and ElevenLabs for AI voice and text-to-speech.",
+    text: "Quick links to Kory's AI apps: Grok for chat, image and video generation; Gemini for research and writing; Google Flow for AI filmmaking; Artlist for music, SFX, stock footage and AI tools; ElevenLabs for AI voice and text-to-speech; and Google Labs Project Genie for generating interactive, explorable worlds.",
     link: "index.html#ai-apps"
   }
 ];
