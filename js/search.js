@@ -151,6 +151,13 @@ const RESEARCH_CHUNKS = [
     link: "index.html#cinematic-short-stories"
   },
   {
+    id: "project-zanthia",
+    bot: "Projects",
+    title: "Zanthia (Zachary's Movie Project)",
+    text: "Sci-fi saga Kory is developing with his son Zachary, managed by Zachary's Movie Project Bot. Ten students live through a 4-year advanced military academy, starting at age 16, on the world Zanthia, where magic appeared 100 years ago from a forgotten ancient civilization. It's in early development, with a story bible, the student names, the magic system, the main character, and the villain still being worked out.",
+    link: "index.html#zanthia"
+  },
+  {
     id: "grok-files-drive",
     bot: "Dashboard",
     title: "Grok Files (Google Drive)",
